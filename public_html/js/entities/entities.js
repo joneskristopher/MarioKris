@@ -19,7 +19,7 @@ game.PlayerEntity = me.Entity.extend({
             this.body.vel.x = 0;
         }
         this.body.update(delta);
-        this_super(me.Entity, "update", [delta]);
+        this._super(me.Entity, "update", [delta]);
         return true;
    }
 });
